@@ -1,3 +1,5 @@
+# author: ggarcz1
+# contributors: 
 import requests, json
 ip = input('Enter an IPv4, IPV6, or domain name to get geolocation data:\n')
 response = requests.get('http://ip-api.com/json/'+ip)
